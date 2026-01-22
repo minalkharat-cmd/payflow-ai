@@ -1,0 +1,18 @@
+{
+    "name": "payflow-ai",
+    "version": "1.0.0",
+    "description": "Autonomous x402 Payment Orchestrator for AI Agents on Cronos EVM - Solves the $127B+ API economy problem by enabling AI agents to autonomously discover, negotiate, and pay for services without human intervention",
+    "scripts": {
+          "compile": "hardhat compile",
+          "test": "hardhat test",
+          "deploy:testnet": "hardhat run scripts/deploy.js --network cronosTestnet"
+    },
+    "dependencies": {
+          "@crypto.com/facilitator-client": "^1.0.0",
+          "@openzeppelin/contracts": "^5.0.0",
+          "ethers": "^6.9.0"
+    },
+    "devDependencies": {
+          "hardhat": "^2.19.0"
+    }
+}
